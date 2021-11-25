@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Times New Roman", Times, serif;
+  line-height: 1.3em;
+}
+.bi {
+  margin: 5px;
+}
+/* .footer-left p {
+  border-bottom: 1px solid #ccc;
+} */

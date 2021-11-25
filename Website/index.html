@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"
+    />
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--Navbar-->
+    <div class="main">
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark py-3 sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="#">Seytech Boostrap</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navmenu"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#Fundamentals" class="nav-link">What You'll Learn</a>
+              </li>
+              <li class="nav-item">
+                <a href="#FAQ" class="nav-link">Questions</a>
+              </li>
+              <li class="nav-item">
+                <a href="#inst" class="nav-link">Instructors</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--Header-->
+      <header class="header bg-dark"> 
+        <div class="container d-flex justify-content-center align-items-center">
+          <div class="header-left lead text-light my-3">
+            <h1>Become a <span>Web Developer</span></h1>
+            <p class="py-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
+              quod, laborum incidunt commodi asperiores expedita neque est
+              repudiandae! Recusandae, eaque?
+            </p>
+            <a class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#staticBackdrop" href="#">Start the Enrollment</a>
+            <div class="modal fade text-dark" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4 class="modal-title" id="staticBackdropLabel">Enrollment</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- 1 -->
+                        <p>Fill out this form and we will get back to you</p>
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">First name:</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" >
+                          </div>
+                          <!-- 2 -->
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Last Name:</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" >
+                          </div>
+                          <!-- 3 -->
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1" >
+                          </div>
+                          <!-- 4 -->
+                          <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Phone:</label>
+                            <input type="number" class="form-control" id="exampleFormControlInput1" >
+                          </div>
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                      <button type="button" class="btn btn-primary">Understood</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="header-right">
+            <img class="py-4" src="/img/undraw_co_workers_re_1i6i.svg" alt="" />
+          </div>
+        </div>
+      </header>
+      <!--section part-->
+      <section class="section bg-danger py-5">
+        <div class="container d-flex justify-content-between">
+          <div class="section-right text-light">
+            <h3>Sign Up For Our Newsletter</h3>
+          </div>
+          <div class="d-flex w-50">
+            <input
+              type="text"
+              class="form-control pe-5"
+              placeholder="Enter Email"
+              aria-label="Enter Email"
+              aria-describedby="basic-addon2"
+            />
+            <span class="input-group-text btn-dark" id="basic-addon2"
+              >Submit</span
+            >
+          </div>
+        </div>
+      </section>
+      <!--Cards-->
+      <section class="cards">
+        <div class="container text-center py-5">
+          <div class="row">
+            <div class="col-sm-4">
+              <div class="card bg-dark text-light">
+                <div class="card-body">
+                  <h1><i class="bi bi-laptop"></i></h1>
+                  <h4 class="card-title">Virtual</h4>
+                  <p class="card-text">
+                    Our course is a remote, online learning experience that
+                    teaches everything you need to know to become a successful
+                    software engineer.
+                  </p>
+                  <a href="#" class="btn btn-danger">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card">
+                <div class="card-body">
+                  <h1><i class="bi bi-book"></i></h1>
+                  <h4 class="card-title">Technologies</h4>
+                  <p class="card-text">
+                    We help you identify the right position and prepare you for
+                    that job! We teach only the most relevant, cutting edge
+                    technologies that will get you hired.
+                  </p>
+                  <a href="#" class="btn btn-dark">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-4">
+              <div class="card bg-dark text-light">
+                <div class="card-body">
+                  <h1><i class="bi bi-trophy"></i></h1>
+                  <h4 class="card-title">Career Services</h4>
+                  <p class="card-text">
+                    We support our graduates to find their first role as a
+                    developer. Our team will work with you to identify your
+                    unique career goals, and guide you to success.
+                  </p>
+                  <a href="#" class="btn btn-danger">Go somewhere</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--SHOWCASE-->
+      <section class="showcase">
+        <div
+          class="
+            container
+            d-flex
+            justify-content-between
+            align-items-center
+            pt-5
+          "
+        >
+          <div class="showcase-right m-5" id="Fundamentals">
+            <img class="w-100" src="/img/pair-prog.svg" alt="" />
+          </div>
+          <div class="showcase-left m-5" >
+            <h1 class="font-weight-bold">Learn The Fundamentals</h1>
+            <p class="py-3 font-weight-normal">
+              Learn to create elegant web pages and captivate audiences with
+              HTML5 and CSS3.
+            </p>
+            <p class="font-weight-light">
+              JavaScript is the universal programming language of the web.
+              Knowing JS is essential for any modern web developer.
+            </p>
+            <a class="btn btn-dark" href="#">Read More</a>
+          </div>
+        </div>
+      </section>
+      <!--React part-->
+      <section class="react bg-dark">
+        <div class="container d-flex justify-content-center align-items-center">
+          <div class="header-left lead text-light my-3">
+            <h1>Learn React</h1>
+            <p class="py-3">
+              During 1 month React course you will have deep knowledge about
+              React/Redux with real life projects.
+            </p>
+            <p>
+              Good for Developers who are new to JavaScript but want to learn
+              React as quickly as possible. Students who feel their
+              Bootcamp/University isn't teaching them React effectively enough.
+            </p>
+            <a class="btn btn-info" href="#"> > Read More</a>
+          </div>
+          <div class="header-right">
+            <img class="py-4 w-100" src="/img/react.svg" alt="" />
+          </div>
+        </div>
+      </section>
+      <!--Questions-->
+      <section class="questions" id="FAQ">
+        <div class="container  p-5">
+          <h1 class="text-center">Frequently Asked Questions</h1>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                 Where are you exactly located?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Our course is a remote, online learning experience that teaches everything you need to know to become a successful software engineer. Through live lectures, 24/7 access to our learning platform, and real-time support from instructors, you’ll have access to the best resources available.</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  How do i sing up?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Click "START THE ENROLLMENT" button and fill out the form. We will contact you</p>
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  What is the success rate of your bootcamp?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                </div>
+                <p>96% OF GRADS ARE HIRED WITHIN 60 DAYS All Seytech grads are working as software engineers!</p>
+              </div>
+            </div>
+            <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                   What is the schedule?
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse " aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      <p>Our classes will be Monday-Friday eveningg 5:00pm-8:00pm (PST) and 2 days of 2-hour extra classes.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                   Do you help me find a job?
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse " aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                      <p>We’ll help you cultivate your career goals and layout a plan of attack. Based on your level we come up with the best career plan which suits you. We never give up on you and will work with you till you find a job. We will keep working with you even after you find a job. You will have endless opportunities to practice your elevator pitch and we’ll show you how to highlight your assets. Career coaching will help you to prepare a resume and improve your chance to be contacted by recruiters.</p>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </section>
+      <!-- INSTRUCTORS -->
+      <section class="instructors btn-danger" id="inst">
+          <div class="container ">
+              <div class="headpart text-center py-4">
+              <h1>Our Instructors</h1>
+              <p>All our instructors are experts in their field and love teaching.</p>
+            </div>
+              <div class="bottomscards d-flex flex-row justify-content-evenly pb-5 text-center">
+              <!-- 1 -->
+              <div class="card py-3" style="width: 20rem; height: auto;">
+                <img src="https://randomuser.me/api/portraits/men/11.jpg" class="card-img-top rounded-circle mx-auto w-50"  alt="...">
+                <div class="card-body text-dark">
+                    <h3>John Doe</h3>
+                  <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.</p>
+                  <i class="bi bi-twitter "></i>
+                  <i class="bi bi-facebook"></i>
+                  <i class="bi bi-linkedin"></i>
+                  <i class="bi bi-instagram"></i>
+                </div>
+              </div>
+              <!-- 2 -->
+              <div class="card py-3" style="width: 18rem; height: auto;">
+                <img src="https://randomuser.me/api/portraits/women/11.jpg" class="card-img-top rounded-circle mx-auto w-50"  alt="...">
+                <div class="card-body text-dark">
+                    <h3>Jane Doe</h3>
+                  <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.</p>
+                  <i class="bi bi-twitter "></i>
+                  <i class="bi bi-facebook"></i>
+                  <i class="bi bi-linkedin"></i>
+                  <i class="bi bi-instagram"></i>
+                </div>
+              </div>
+              <!-- 3 -->
+              <div class="card py-3" style="width: 18rem; height: auto;">
+                <img src="https://randomuser.me/api/portraits/men/12.jpg" class="card-img-top rounded-circle mx-auto w-50"  alt="...">
+                <div class="card-body text-dark">
+                    <h3>Steve Smith</h3>
+                  <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.</p>
+                  <i class="bi bi-twitter "></i>
+                  <i class="bi bi-facebook"></i>
+                  <i class="bi bi-linkedin"></i>
+                  <i class="bi bi-instagram"></i>
+                </div>
+              </div>
+              <!-- 4 -->
+              <div class="card py-3" style="width: 18rem; height: auto;">
+                <img src="https://randomuser.me/api/portraits/women/12.jpg" class="card-img-top rounded-circle mx-auto w-50"  alt="...">
+                <div class="card-body text-dark">
+                    <h3>Sara Smith</h3>
+                  <p class="card-text ">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda accusamus nobis sed cupiditate iusto? Quibusdam.</p>
+                  <i class="bi bi-twitter "></i>
+                  <i class="bi bi-facebook"></i>
+                  <i class="bi bi-linkedin"></i>
+                  <i class="bi bi-instagram"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+      </section>
+      <!-- FOOTER -->
+      <footer class="footer">
+            <div class="container d-flex justify-content-evenly align-items-center ">
+                <div class="footer-left fs-5">
+                    <h1 class="text-center py-3">Contact Info</h1>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item"><span class="fw-bolder">Main Location:</span> United States</li>
+                        <li class="list-group-item"><span class="fw-bolder">Enrollment Phone:</span>(555) 555-5555</li>
+                        <li class="list-group-item"><span class="fw-bolder">Student Phone:</span> (333) 333-3333</li>
+                        <li class="list-group-item"><span class="fw-bolder">Enrollment Email:</span> (555) enroll@frontendbc.test</li>
+                        <li class="list-group-item"><span class="fw-bolder">Student Email: </span> student@frontendbc.test</li>
+                      </ul>
+                <!-- <p class="list-group-flush"><span class="fw-bolder">Main Location:</span> United States</p>
+                <p><span class="fw-bolder">Enrollment Phone:</span>(555) 555-5555</p>
+                <p><span class="fw-bolder">Student Phone:</span> (333) 333-3333</p>
+                <p><span class="fw-bolder">Enrollment Email:</span> (555) enroll@frontendbc.test</p>
+                <p><span class="fw-bolder">Student Email: </span> student@frontendbc.test</p> -->
+                </div>
+                <div class="footer-right py-5">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d21523.75771670406!2d-122.14022215!3d47.59755560000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1637817587838!5m2!1sen!2sus" width="500" height="300" style="border:0;" allowfullscreen="" class="rounded" loading="lazy"></iframe>
+                </div>
+              </div>
+      </footer>
+    </div>
+    <!-- COPYRIGHT -->
+    <footer class="last bg-dark position-relative">
+        <div class="container d-flex justify-content-evenly text-center text-light py-5 ">
+            <h4 class="text-center">Copyright &copy; 2021 Seytech Bootcamp</h4>    
+        </div>
+        <div class="last-icon me-5  position-absolute  top-50 end-0 translate-middle-y">
+            <h1><a href="#"><i class="bi bi-arrow-up-circle "></i></a></h1>
+        </div>
+    </footer>
+  </body>
+</html>
